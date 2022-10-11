@@ -27,11 +27,11 @@ public class Demo {
 	private static final Logger log = Logger.getLogger(Demo.class.getName());
 
 	@SuppressWarnings("unchecked")
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		Person p = new Person();
-//		p.setNombre("Santiago");
-//		p.setAge(10);
-//		p.setBirthDate(LocalDateTime.now());
+		// p.setNombre("Santiago");
+		// p.setAge(10);
+		// p.setBirthDate(LocalDateTime.now());
 		// Properties prop = PropertiesUtil.getProperties("myYml.yml");
 		// System.out.println(prop.get("nombre"));
 		// Integer a = (Integer) prop.get("count");
@@ -39,28 +39,35 @@ public class Demo {
 		// testPersistence(p);
 		Runnable run = new Runnable() {
 			public void run() {
-				for (int i = 0; i < 10; i++) {
-					System.out.println(Thread.currentThread().getName() + " " + p.getAge());
-					p.setAge(p.getAge() + 1);
+				for (int i = 0; i < 10000; i++) {
+					// System.out.println(Thread.currentThread().getName() + " " + p.getAge());
+					// p.increment(2);
+					p.atomicIncrement();
+
 				}
 			}
 		};
-		
-		for (int i = 0; i < 10; i++) {
+		Thread[] threads = new Thread[100];
+		for (int i = 0; i < threads.length; i++) {
 			// System.out.println(Thread.currentThread().getName() + " " + p.getAge());
-			Thread t = new Thread(run);
-			t.start();
-			
-		}
-		for (int i = 0; i < 10; i++) {
-			// System.out.println(Thread.currentThread().getName() + " " + p.getAge());
-			Thread t = new Thread(run);
-			t.start();
-			
-		}
-		System.out.println("Res " + p.getAge());
 
-		//testReadYml();
+			// creando threads
+			threads[i] = new Thread(run);
+			threads[i].start();
+
+		}
+		for (int i = 0; i < threads.length; i++) {
+			// System.out.println(Thread.currentThread().getName() + " " + p.getAge());
+
+			threads[i].join();
+
+
+		}
+		//
+		// System.out.println("Res " + p.getAge());
+		System.out.println("Res " + p.getCounter());
+
+		// testReadYml();
 		// testPersistence(p);
 
 	}
