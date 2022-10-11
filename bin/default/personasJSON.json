@@ -1,0 +1,10 @@
+{
+  "name" : "Santiago",
+  "lastName" : "Gomez",
+  "age" : 29,
+  "birthDate" : "2022-10-03T23:02:21.3832674",
+  "addressList" : [ {
+    "street" : "GALAPAGOS",
+    "number" : "Oe-780"
+  } ]
+}

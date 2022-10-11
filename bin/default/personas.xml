@@ -1,0 +1,12 @@
+<Person>
+	<name>Santiago</name>
+	<lastName>Gomez</lastName>
+	<age>29</age>
+	<birthDate>2022-10-03T22:56:48.3669819</birthDate>
+	<addressList>
+		<addressList>
+			<street>GALAPAGOS</street>
+			<number>Oe-780</number>
+		</addressList>
+	</addressList>
+</Person>

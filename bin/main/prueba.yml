@@ -1,0 +1,34 @@
+id: 20
+name: Bruce
+year: 2020
+address: Gotham City
+department: Computer Science
+endpoints:
+   api:
+      # Endpoints de Spring Boot activos
+      enabled: true
+logging:
+   level:
+      # Nivel de log por defecto del servidro establecido al nivel de INFO
+      root: info
+ontimize:
+   corsfilter:
+      # Habilitado los filtros de CORS
+      enabled: true
+   globalcors:
+      # Configuración global de CORS
+      cors-configurations:
+         '[/**]':
+            # Permitir diferentes orígenes
+            allowed-origins: "*"
+            # Permitir cabeceras
+            allowed-headers: "*"
+            # Cabeceras expuestas
+            exposed-headers: ["X-Auth-Token","Content-disposition","X-Requested-With"]
+            # Métodos HTTP permitidos
+            allowed-methods:
+            - GET
+            - POST
+            - PUT
+            - OPTIONS
+            - DELETE

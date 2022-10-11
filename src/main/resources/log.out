@@ -1,0 +1,61 @@
+2022-10-09 19:07:10,709 INFO com.montran.demo.persistence.RepositoryImplXml.save(RepositoryImplXml.java:60) File C:\Users\santy\Documents\Montran\FinalExam\src\main\resources\person.xml saved successfully 
+2022-10-09 19:07:10,711 INFO com.montran.demo.main.Demo.main(Demo.java:46) persona creada correctamente 
+2022-10-09 19:07:47,030 INFO com.montran.demo.main.Demo.main(Demo.java:34) persona Santiago cargada correctamente 
+2022-10-10 12:44:13,762 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:44) Error during load file resources
+trying to load file with extension .yml 
+2022-10-10 12:44:13,767 ERROR com.montran.demo.utils.PropertiesUtil.getYmlProperties(PropertiesUtil.java:83) Error during load file resources 
+java.io.FileNotFoundException: src\main\resources\prueba.yml (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at com.montran.demo.utils.PropertiesUtil.getYmlProperties(PropertiesUtil.java:75)
+	at com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:46)
+	at com.montran.demo.utils.PropertiesUtil.main(PropertiesUtil.java:92)
+2022-10-10 12:46:48,400 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:44) Error during load file resources
+trying to load file with extension .yml 
+2022-10-10 12:46:48,405 ERROR com.montran.demo.utils.PropertiesUtil.getYmlProperties(PropertiesUtil.java:83) Error during load file src\main\resources 
+java.io.FileNotFoundException: src\main\resources\prueba.yml (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at com.montran.demo.utils.PropertiesUtil.getYmlProperties(PropertiesUtil.java:75)
+	at com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:46)
+	at com.montran.demo.utils.PropertiesUtil.main(PropertiesUtil.java:92)
+2022-10-10 12:47:19,544 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:44) Error during load file resources
+trying to load file with extension .yml 
+2022-10-10 12:47:19,552 ERROR com.montran.demo.utils.PropertiesUtil.getYmlProperties(PropertiesUtil.java:83) Error during load file src\main\resourcesprueba.yml 
+java.io.FileNotFoundException: src\main\resources\prueba.yml (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at com.montran.demo.utils.PropertiesUtil.getYmlProperties(PropertiesUtil.java:75)
+	at com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:46)
+	at com.montran.demo.utils.PropertiesUtil.main(PropertiesUtil.java:92)
+2022-10-10 12:47:55,036 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:44) Error during load file resources
+trying to load file with extension .yml 
+2022-10-10 12:47:55,043 ERROR com.montran.demo.utils.PropertiesUtil.getYmlProperties(PropertiesUtil.java:83) Error during load file src\main\resources\prueba.yml 
+java.io.FileNotFoundException: src\main\resources\prueba.yml (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at com.montran.demo.utils.PropertiesUtil.getYmlProperties(PropertiesUtil.java:75)
+	at com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:46)
+	at com.montran.demo.utils.PropertiesUtil.main(PropertiesUtil.java:92)
+2022-10-10 12:48:46,778 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:44) Error during load file src\main\resources\prueba.properties
+trying to load file with extension .yml 
+2022-10-10 12:48:46,783 ERROR com.montran.demo.utils.PropertiesUtil.getYmlProperties(PropertiesUtil.java:83) Error during load file src\main\resources\prueba.yml 
+java.io.FileNotFoundException: src\main\resources\prueba.yml (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at com.montran.demo.utils.PropertiesUtil.getYmlProperties(PropertiesUtil.java:75)
+	at com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:46)
+	at com.montran.demo.utils.PropertiesUtil.main(PropertiesUtil.java:92)
+2022-10-10 12:50:21,283 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:44) Error during load file src\main\resources\prueba.properties
+trying to load file with extension .yml 
+2022-10-10 12:50:39,118 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:44) Error during load file src\main\resources\prueba.yml
+trying to load file with extension .yml 
+2022-10-10 12:50:48,544 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:44) Error during load file src\main\resources\prueba
+trying to load file with extension .yml 
+2022-10-10 12:54:33,008 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:44) Error during load file src\main\resources\prueba
+trying to load file with extension .yml 
