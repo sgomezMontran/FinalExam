@@ -2,6 +2,7 @@ package com.montran.demo.main;
 
 
 import java.io.IOException;
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
@@ -17,7 +18,7 @@ import com.montran.demo.utils.PropertiesUtil;
 /**
  * Demo to test Component Solution
  * 
- * @author 
+ * @author Santiago Gómez
  *
  */
 public class Demo {
@@ -28,25 +29,38 @@ public class Demo {
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 		Person p = new Person();
-		p.setAge(1);
+//		p.setNombre("Santiago");
+//		p.setAge(10);
+//		p.setBirthDate(LocalDateTime.now());
+		// Properties prop = PropertiesUtil.getProperties("myYml.yml");
+		// System.out.println(prop.get("nombre"));
+		// Integer a = (Integer) prop.get("count");
+		// System.out.println(a);
+		// testPersistence(p);
+		Runnable run = new Runnable() {
+			public void run() {
+				for (int i = 0; i < 10; i++) {
+					System.out.println(Thread.currentThread().getName() + " " + p.getAge());
+					p.setAge(p.getAge() + 1);
+				}
+			}
+		};
+		
+		for (int i = 0; i < 10; i++) {
+			// System.out.println(Thread.currentThread().getName() + " " + p.getAge());
+			Thread t = new Thread(run);
+			t.start();
+			
+		}
+		for (int i = 0; i < 10; i++) {
+			// System.out.println(Thread.currentThread().getName() + " " + p.getAge());
+			Thread t = new Thread(run);
+			t.start();
+			
+		}
+		System.out.println("Res " + p.getAge());
 
-		// Runnable run = new Runnable() {
-		// public void run() {
-		//
-		// for (int i = 0; i < 10; i++) {
-		// System.out.println(Thread.currentThread().getName() + " " + p.getAge());
-		// p.setAge(p.getAge() + 1);
-		// }
-		// }
-		// };
-		// for (int i = 0; i < 10; i++) {
-		// // System.out.println(Thread.currentThread().getName() + " " + p.getAge());
-		// Thread t = new Thread(run);
-		// t.start();
-		// }
-		// System.out.println("Res " + p.getAge());
-
-		testReadYml();
+		//testReadYml();
 		// testPersistence(p);
 
 	}
@@ -54,15 +68,15 @@ public class Demo {
 	@SuppressWarnings("unchecked")
 	public static void testReadYml() {
 		Properties properties = PropertiesUtil.getYmlProperties("prueba.yml");
-		// Properties properties = PropertiesUtil.getProperties("config");
-		Object value = properties.getProperty("id");
-		if (value == null) {
-			log.warn("no hay valor");
-			value = (int) 20;
-			System.out.println(value);
-		}
-		
-		System.out.println(properties.getProperty("persist-classname", "10"));
+		// // Properties properties = PropertiesUtil.getProperties("config");
+		// Object value = properties.getProperty("id");
+		// if (value == null) {
+		// log.warn("no hay valor");
+		// value = (int) 20;
+		// System.out.println(value);
+		// }
+		//
+		// System.out.println(properties.getProperty("persist-classname", "10"));
 		// Map<String, Object> map = (Map<String, Object>) properties.get("ontimize");
 		// map.forEach((k, v) -> System.out.println(k + " " + v));
 		//
@@ -78,11 +92,14 @@ public class Demo {
 		// }
 		// properties.forEach((k,v)->System.out.println(k+" "+v));
 
-		// Map<String, Map<String, Map<String, Map<String, Object>>>> multimap = (Map<String, Map<String, Map<String, Map<String, Object>>>>) properties
-		// .get("ontimize");
-		// Map<String, Object> myMap = multimap.get("globalcors").get("cors-configurations").get("[/**]");
-		// System.out.println(((List<String>) myMap.get("exposed-headers")).get(0));
-		// System.out.println(multimap);
+		Map<String, Map<String, Map<String, Map<String, Object>>>> multimap = (Map<String, Map<String, Map<String, Map<String, Object>>>>) properties
+		        .get("ontimize");
+		Map<String, Object> myMap = multimap.get("globalcors").get("cors-configurations").get("[/**]");
+		System.out.println(((List<String>) myMap.get("exposed-headers")).get(0));
+		System.out.println(multimap);
+
+		// Properties properties = PropertiesUtil.getProperties("prueba.yml");
+		// System.out.println(properties.getProperty("persist-classname", "no value"));
 	}
 
 	@SuppressWarnings("unchecked")
@@ -97,14 +114,14 @@ public class Demo {
 			p = repo.load(Person.class, ACCOUNT_LEDGER_NAME);
 
 			if (p != null) {
-				log.info(String.format("persona %s cargada correctamente", p.getNombre()));
+				log.info(String.format("persona %s cargada correctamente", p.getBirthDate()));
 				return;
 			}
 			p.setNombre("Santiago");
 			repo.save(p, ACCOUNT_LEDGER_NAME);
 			log.info("persona creada correctamente");
 		} catch (PersistenceException | IOException e) {
-			p = new Person();
+
 			p.setNombre("Santiago");
 			try {
 				repo.save(p, ACCOUNT_LEDGER_NAME);

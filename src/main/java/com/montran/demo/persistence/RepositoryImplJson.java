@@ -1,5 +1,6 @@
 package com.montran.demo.persistence;
 
+
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
@@ -32,7 +33,7 @@ public class RepositoryImplJson<T> implements Repository<T> {
 	private static Logger log = Logger.getLogger(RepositoryImplJson.class.getName());
 
 	private static final Properties CONFIG = PropertiesUtil.getProperties("config.properties");
-	private static final String EXTENSION = CONFIG.getProperty("repository.extension", ".json");
+	private static final String EXTENSION = ".json";
 	private final Path dataFolder = Path.of(CONFIG.getProperty("repository.data.folder", "src/main/resources"));
 
 	/**
@@ -43,8 +44,7 @@ public class RepositoryImplJson<T> implements Repository<T> {
 		Path file = dataFolder.resolve(fileName + getValidatedExtension(EXTENSION));
 		ObjectWriter ow = new ObjectMapper().writer().withDefaultPrettyPrinter();
 		try (PrintWriter out = new PrintWriter(new OutputStreamWriter(
-				Files.newOutputStream(file, StandardOpenOption.TRUNCATE_EXISTING, StandardOpenOption.CREATE),
-				Charset.forName("UTF-8")))) {
+		        Files.newOutputStream(file, StandardOpenOption.TRUNCATE_EXISTING, StandardOpenOption.CREATE), Charset.forName("UTF-8")))) {
 			String jsonData = ow.writeValueAsString(obj);
 			out.append(jsonData + System.lineSeparator());
 

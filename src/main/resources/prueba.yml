@@ -1,4 +1,5 @@
 id: 20
+persist-classname: com.montran.demo.persistence.RepositoryImplJson
 name: Bruce
 year: 2020
 address: Gotham City

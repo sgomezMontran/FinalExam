@@ -50,7 +50,7 @@ public class PersistenceFactory {
 			return repsitory;
 		} catch (ClassNotFoundException | InstantiationException | IllegalAccessException | InvocationTargetException
 				| SecurityException e) {
-			logger.log(Level.INFO, "Error during comparator creation: " + e.getMessage());
+			logger.log(Level.INFO, "Error during persistence creation: " + e.getMessage());
 			throw new PersistenceException(e.getMessage(), e);
 		} catch (NullPointerException e) {
 			logger.log(Level.FATAL, "Error during persistence creation with persistence Class: " + e.getMessage()

@@ -74,8 +74,11 @@ public class PropertiesUtil {
 			// library to read values from a input Stream to Map format
 			Yaml yaml = new Yaml();
 			Map<String, Object> data = yaml.load(inputStream);
+			if (data == null) {
+				return properties;
+			}
 			data.forEach((k, v) -> properties.put(k, v));
-			
+
 			return properties;
 
 		} catch (IOException e) {

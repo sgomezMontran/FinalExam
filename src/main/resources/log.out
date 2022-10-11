@@ -59,3 +59,112 @@ trying to load file with extension .yml
 trying to load file with extension .yml 
 2022-10-10 12:54:33,008 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:44) Error during load file src\main\resources\prueba
 trying to load file with extension .yml 
+2022-10-11 08:22:37,081 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:43) Error during load file src\main\resources\prueba
+trying to load file with extension .yml 
+2022-10-11 08:24:35,761 INFO com.montran.demo.persistence.RepositoryImplXml.save(RepositoryImplXml.java:60) File C:\Users\santy\Documents\Montran\FinalExam\src\main\resources\person.xml saved successfully 
+2022-10-11 08:24:35,762 INFO com.montran.demo.main.Demo.testPersistence(Demo.java:105) persona creada correctamente 
+2022-10-11 08:25:19,101 INFO com.montran.demo.main.Demo.testPersistence(Demo.java:93) persona Santiago cargada correctamente 
+2022-10-11 08:25:43,207 INFO com.montran.demo.persistence.RepositoryImplJson.save(RepositoryImplJson.java:53) File C:\Users\santy\Documents\Montran\FinalExam\src\main\resources\person.json saved successfully 
+2022-10-11 08:25:43,209 INFO com.montran.demo.main.Demo.testPersistence(Demo.java:105) persona creada correctamente 
+2022-10-11 08:27:15,878 INFO com.montran.demo.persistence.RepositoryImplJson.save(RepositoryImplJson.java:53) File C:\Users\santy\Documents\Montran\FinalExam\src\main\resources\person.json saved successfully 
+2022-10-11 08:27:15,879 INFO com.montran.demo.main.Demo.testPersistence(Demo.java:79) persona creada correctamente 
+2022-10-11 08:27:48,629 INFO com.montran.demo.persistence.RepositoryImplJson.save(RepositoryImplJson.java:53) File C:\Users\santy\Documents\Montran\FinalExam\src\main\resources\person.json saved successfully 
+2022-10-11 08:27:48,631 INFO com.montran.demo.main.Demo.testPersistence(Demo.java:79) persona creada correctamente 
+2022-10-11 11:07:23,497 INFO com.montran.demo.persistence.RepositoryImplJson.save(RepositoryImplJson.java:53) File C:\Users\santy\Documents\Montran\FinalExam\src\main\resources\person.json saved successfully 
+2022-10-11 11:07:23,499 INFO com.montran.demo.main.Demo.testPersistence(Demo.java:81) persona creada correctamente 
+2022-10-11 11:18:47,350 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:43) Error during load file src\main\resources\prueba
+trying to load file with extension .yml 
+2022-10-11 11:22:17,467 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:43) Error during load file src\main\resources\prueba
+trying to load file with extension .yml 
+2022-10-11 11:22:38,003 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:43) Error during load file src\main\resources\prueba
+trying to load file with extension .yml 
+2022-10-11 11:24:57,502 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:43) Error during load file src\main\resources\prueba
+trying to load file with extension .yml 
+2022-10-11 11:26:34,027 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:43) Error during load file src\main\resources\prueba
+trying to load file with extension .yml 
+2022-10-11 11:26:44,784 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:43) Error during load file src\main\resources\prueba
+trying to load file with extension .yml 
+2022-10-11 11:28:20,453 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:43) Error during load file src\main\resources\prueba
+trying to load file with extension .yml 
+2022-10-11 11:28:41,691 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:43) Error during load file src\main\resources\prueba
+trying to load file with extension .yml 
+2022-10-11 11:30:54,189 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:43) Error during load file src\main\resources\prueba
+trying to load file with extension .yml 
+2022-10-11 11:32:42,589 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:43) Error during load file src\main\resources\prueba
+trying to load file with extension .yml 
+2022-10-11 11:33:12,074 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:43) Error during load file src\main\resources\prueba
+trying to load file with extension .yml 
+2022-10-11 11:34:01,282 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:43) Error during load file src\main\resources\prueba
+trying to load file with extension .yml 
+2022-10-11 11:35:05,599 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:43) Error during load file src\main\resources\prueba
+trying to load file with extension .yml 
+2022-10-11 11:37:05,792 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:43) Error during load file src\main\resources\prueba
+trying to load file with extension .yml 
+2022-10-11 11:37:17,967 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:43) Error during load file src\main\resources\prueba
+trying to load file with extension .yml 
+2022-10-11 11:37:42,110 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:43) Error during load file src\main\resources\prueba
+trying to load file with extension .yml 
+2022-10-11 11:37:56,678 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:43) Error during load file src\main\resources\prueba
+trying to load file with extension .yml 
+2022-10-11 11:38:10,054 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:43) Error during load file src\main\resources\prueba
+trying to load file with extension .yml 
+2022-10-11 11:39:10,463 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:43) Error during load file src\main\resources\prueba
+trying to load file with extension .yml 
+2022-10-11 11:40:25,733 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:43) Error during load file src\main\resources\prueba
+trying to load file with extension .yml 
+2022-10-11 11:42:22,179 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:43) Error during load file src\main\resources\prueba
+trying to load file with extension .yml 
+2022-10-11 11:43:09,330 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:43) Error during load file src\main\resources\prueba
+trying to load file with extension .yml 
+2022-10-11 11:43:32,442 ERROR com.montran.demo.utils.PropertiesUtil.getYmlProperties(PropertiesUtil.java:82) Error during load file src\main\resources\prueba 
+java.io.FileNotFoundException: src\main\resources\prueba (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at com.montran.demo.utils.PropertiesUtil.getYmlProperties(PropertiesUtil.java:73)
+	at com.montran.demo.main.Demo.testReadYml(Demo.java:56)
+	at com.montran.demo.main.Demo.main(Demo.java:49)
+2022-10-11 11:45:48,002 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:43) Error during load file src\main\resources\prueba.yml
+trying to load file with extension .yml 
+2022-10-11 11:51:50,368 WARN com.montran.demo.main.Demo.testReadYml(Demo.java:60) no hay valor 
+2022-10-11 11:52:13,934 WARN com.montran.demo.main.Demo.testReadYml(Demo.java:60) no hay valor 
+2022-10-11 12:00:00,574 ERROR com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:64) Error during load file src\main\resources\prueba 
+java.io.FileNotFoundException: src\main\resources\prueba (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:55)
+	at com.montran.demo.main.Demo.testReadYml(Demo.java:87)
+	at com.montran.demo.main.Demo.main(Demo.java:49)
+2022-10-11 12:00:14,640 ERROR com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:64) Error during load file src\main\resources\prueba.yml 
+java.io.FileNotFoundException: src\main\resources\prueba (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:55)
+	at com.montran.demo.main.Demo.testReadYml(Demo.java:87)
+	at com.montran.demo.main.Demo.main(Demo.java:49)
+2022-10-11 12:01:18,262 ERROR com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:52) Error during load file src\main\resources\prueba 
+java.io.FileNotFoundException: src\main\resources\prueba (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:43)
+	at com.montran.demo.main.Demo.testReadYml(Demo.java:87)
+	at com.montran.demo.main.Demo.main(Demo.java:49)
+2022-10-11 12:43:24,074 INFO com.montran.demo.persistence.RepositoryImplJson.save(RepositoryImplJson.java:53) File C:\Users\santy\Documents\Montran\FinalExam\src\main\resources\person.json saved successfully 
+2022-10-11 12:48:58,910 INFO com.montran.demo.persistence.RepositoryImplJson.save(RepositoryImplJson.java:53) File C:\Users\santy\Documents\Montran\FinalExam\src\main\resources\person.json saved successfully 
+2022-10-11 14:18:29,643 INFO com.montran.demo.persistence.RepositoryImplJson.save(RepositoryImplJson.java:53) File C:\Users\santy\Documents\Montran\FinalExam\src\main\resources\person.json saved successfully 
+2022-10-11 14:18:29,645 INFO com.montran.demo.main.Demo.testPersistence(Demo.java:115) persona creada correctamente 
+2022-10-11 14:19:27,849 INFO com.montran.demo.persistence.RepositoryImplJson.save(RepositoryImplJson.java:53) File C:\Users\santy\Documents\Montran\FinalExam\src\main\resources\person.json saved successfully 
+2022-10-11 14:19:27,851 INFO com.montran.demo.main.Demo.testPersistence(Demo.java:115) persona creada correctamente 
+2022-10-11 14:29:05,113 INFO com.montran.demo.main.Demo.testPersistence(Demo.java:106) persona Santiago cargada correctamente 
+2022-10-11 14:29:22,064 INFO com.montran.demo.persistence.RepositoryImplJson.save(RepositoryImplJson.java:53) File C:\Users\santy\Documents\Montran\FinalExam\src\main\resources\person.json saved successfully 
+2022-10-11 14:29:22,066 INFO com.montran.demo.main.Demo.testPersistence(Demo.java:117) persona creada correctamente 
+2022-10-11 14:30:07,585 INFO com.montran.demo.main.Demo.testPersistence(Demo.java:106) persona 2022-10-11T14:29:21.747188700 cargada correctamente 
+2022-10-11 14:32:02,049 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:43) Error during load file src\main\resources\prueba.yml
+trying to load file with extension .yml 
+2022-10-11 14:38:27,661 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:43) Error during load file src\main\resources\myYml.yml
+trying to load file with extension .yml 
+2022-10-11 14:39:57,801 WARN com.montran.demo.utils.PropertiesUtil.getProperties(PropertiesUtil.java:43) Error during load file src\main\resources\myYml.yml
+trying to load file with extension .yml 

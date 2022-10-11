@@ -34,7 +34,7 @@ public class RepositoryImplXml<T> implements Repository<T> {
 	private static Logger log = Logger.getLogger(RepositoryImplXml.class.getName());
 
 	private static final Properties CONFIG = PropertiesUtil.getProperties("config.properties");
-	private static final String EXTENSION = CONFIG.getProperty("repository.extension", ".xml");
+	private static final String EXTENSION =  ".xml";
 	private final Path dataFolder = Path.of(CONFIG.getProperty("repository.data.folder", "src/main/resources"));
 
 	/**
